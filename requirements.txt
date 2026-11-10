@@ -1,0 +1,5 @@
+# 하한은 테스트한 버전 (width="stretch", container(key=), [theme.light]/[theme.dark] 사용)
+streamlit>=1.67,<2
+openai>=3.48,<4
+python-dotenv>=1.0
+Pillow>=10.0
