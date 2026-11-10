@@ -1,0 +1,39 @@
+# 동양풍 "관상가의 방" 테마: 한지색 바탕 + 먹색 글씨 + 붉은 낙관 포인트
+[theme]
+headingFont = "'Noto Serif KR':https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&display=swap, serif"
+font = "'Noto Sans KR':https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+baseRadius = "medium"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#B23A2E"            # 낙관 붉은색
+backgroundColor = "#F7F2E8"         # 한지
+secondaryBackgroundColor = "#EDE4D3"
+textColor = "#2B2622"               # 먹색
+borderColor = "#D9CDB8"
+linkColor = "#8A2C22"
+
+[theme.light.sidebar]
+backgroundColor = "#EFE6D5"
+secondaryBackgroundColor = "#E5DAC5"
+
+[theme.dark]
+primaryColor = "#D8584A"
+backgroundColor = "#1C1916"         # 먹
+secondaryBackgroundColor = "#2A2520"
+textColor = "#EEE6D8"
+borderColor = "#3D362F"
+linkColor = "#E8857A"
+
+[theme.dark.sidebar]
+backgroundColor = "#221E1A"
+secondaryBackgroundColor = "#2F2924"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+maxUploadSize = 10                  # MB, PRD F-01 (앱 코드에서도 한 번 더 검사)
+
+[client]
+showErrorDetails = "none"           # 예상 못한 오류 시 내부 경로·코드가 사용자에게 노출되지 않게
